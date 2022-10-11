@@ -4,10 +4,6 @@ module.exports = {
     siteUrl: `https://laszlo.bekessy.me`
   },
   plugins: [
-    // IMAGE PROCESSING PLUGINS
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-
     // SYLE PROCESSING
     `gatsby-plugin-sass`,
 
@@ -20,13 +16,6 @@ module.exports = {
     },
 
     // SOURCE PLUGINS
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

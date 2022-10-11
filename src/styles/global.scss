@@ -1,3 +1,12 @@
+// Bulma overrides
+$body-size: 20px !default;
+// Bulma
+@import "bulma/bulma.sass";
+
+// Own variables
+@import './variables';
+
+// Global styles
 @font-face {
   font-family: 'Nexa';
   font-style: normal;
@@ -12,4 +21,8 @@
   font-weight: 700;
   font-display: swap;
   src: url(/fonts/Nexa-Bold.woff2) format('woff2');
+}
+
+html, body {
+    font-family: $font-family-base;
 }

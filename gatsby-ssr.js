@@ -8,6 +8,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
+      key="nexaBold"
     />,
      <link
       rel="preload"
@@ -15,6 +16,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
+      key="nexaLight"
     />,
   ])
 }
