@@ -1,0 +1,28 @@
+.picture {
+    clip-path: ellipse(68% 50% at 50% 50%);
+}
+
+.profile {
+    transform: translateX(-35%);
+    z-index: 2;
+    width: 25vw;
+    transition: all 1s ease !important;
+}
+
+.sketch {
+    position: absolute;
+    transform: translateX(-20%);
+    z-index: 0;
+    width: 40vw;
+    transition: all 2s ease !important;
+    top: 12vh;
+    opacity: .4;
+}
+
+.container:hover > .sketch {
+    transform: translateX(-15%);
+}
+
+.container:hover > .profile { 
+   transform: translateX(-30%);
+}
