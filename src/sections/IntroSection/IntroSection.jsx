@@ -9,7 +9,7 @@ const IntroSection = () => {
             <Container>
                 <Columns vCentered={true}>
                     <Columns.Column size={4} offset={1} className="landing-caption">
-                        <h2 className="subtitle is-5 is-muted">
+                        <h2 className="subtitle is-size-5 is-muted">
                             Hello. My name is
                         </h2>
                         <h1 className="title is-size-2 is-bold">

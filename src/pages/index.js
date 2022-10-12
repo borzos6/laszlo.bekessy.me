@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Layout } from '../components'
-import { IntroSection } from '../sections'
+import { IntroSection, LeadSection, TechSection, TalentSection } from '../sections'
 import { Divider } from '../components'
 
 const IndexPage = () => {
@@ -8,6 +8,12 @@ const IndexPage = () => {
     <Layout>
       <IntroSection/>
       <Divider text="and this is what I do"/>
+      <LeadSection/>
+      <TechSection/>
+      <TalentSection/>
+      <Divider text="let's work together"/>
+      <Divider text="sometimes I say things publicly"/>
+      <Divider text="and I'm excited about these topics"/>
     </Layout>
   )
 }
