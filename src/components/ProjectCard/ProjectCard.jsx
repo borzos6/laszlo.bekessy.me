@@ -13,7 +13,7 @@ const ProjectCard = ({logo, name, url, children}) => {
         <Media.Item align="center">
           <Content size="small">
               <p>
-                <strong>{name}</strong>&nbsp;<small>[{url && <a href={url} target="_blank" rel='noreferrer'>Visit site</a>}]</small>
+                <strong>{name}</strong>&nbsp;{url && <span>| <a href={url} target="_blank" rel='noreferrer'>Visit site</a></span>}
                 <br />
                 {children}
               </p>

@@ -14,7 +14,12 @@ const ProjectCardsSection = () => {
                         name="CodeBerry School"
                         url="https://codeberryschool.com"
                     >
-                        <p>Co-founder and CEO for a team of 40 from 14 countries. Secured €1.5M VC funding in three rounds. 100% remote team.</p>
+                        <p>
+                            <span className='has-text-weight-bold has-text-primary'>Co-founder, CEO, CTO </span> 
+                            for a team of 40 from 14 countries.
+                            <span className='has-text-weight-bold has-text-primary'> Raised €1.5M </span>
+                            VC funding in three rounds. 100% remote team.
+                        </p>
                     </ProjectCard>
                 </Columns.Column>
                 <Columns.Column size={6}>
@@ -23,7 +28,12 @@ const ProjectCardsSection = () => {
                         name="YearCompass Movement"
                         url="https://yearcompass.com"
                     >
-                         <p>Co-founder and Lead for a not-for/-profit. Used by millions every year, translated to 52 languages. 100% remote team.</p>
+                        <p>
+                            <span className='has-text-weight-bold has-text-primary'>Co-founder and Project Lead </span> 
+                            for a not-for-profit. Used by millions every year, translated to 
+                            <span className='has-text-weight-bold has-text-primary'> 52 languages. </span>
+                            100% remote team.
+                        </p>
                     </ProjectCard>
                 </Columns.Column>
                 <Columns.Column size={6}>
@@ -31,14 +41,26 @@ const ProjectCardsSection = () => {
                         logo={projectInvisibleUniversity} 
                         name="Invisible University"
                         url="https://lathatatlanegyetem.hu"
-                    />
+                    >
+                        <p>
+                            <span className='has-text-weight-bold has-text-primary'>Co-founder and Lead </span> 
+                            of a <span className='has-text-weight-bold has-text-primary'>soft-skill-learning </span>
+                            focused student organization led by hundreds of volunteers in 4 countries.
+                        </p>
+                    </ProjectCard>
                 </Columns.Column>
                 <Columns.Column size={6}>
                     <ProjectCard 
                         logo={projectABF} 
                         name="ABF Informatics"
                         url=""
-                    />
+                    >
+                        <p>
+                            <span className='has-text-weight-bold has-text-primary'>Co-founder CEO, CTO </span> 
+                            for an SMB developing <span className='has-text-weight-bold has-text-primary'> patient-safety software </span>
+                            using self-generated code for the Hungarian Healthcare System.
+                        </p>
+                    </ProjectCard>
                 </Columns.Column>
             </Columns>
             <Content className="has-text-centered" size="small">
