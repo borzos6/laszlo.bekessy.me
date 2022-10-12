@@ -3,3 +3,8 @@ export { default as officeSketch } from "./sketches/office-sketch.png";
 export { default as treeWatercolorSketch } from "./sketches/tree-watercolor.png";
 export { default as globe1Sketch } from "./sketches/globe-1.webp";
 export { default as globe2Sketch } from "./sketches/globe-2.webp";
+export { default as watercolor1Sketch } from "./sketches/watercolor-1.png";
+export { default as watercolor2Sketch } from "./sketches/watercolor-2.png";
+export { default as watercolor3Sketch } from "./sketches/watercolor-3.png";
+export { default as watercolor4Sketch } from "./sketches/watercolor-4.png";
+export { default as watercolor5Sketch } from "./sketches/watercolor-5.png";
