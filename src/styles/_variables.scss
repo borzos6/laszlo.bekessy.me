@@ -1,8 +1,16 @@
-// Color system
-$light-blue:      #34AAE1;
-$grey:            #676767;
+// Bulma overrides
+$body-size: 20px !default;
 
-$primary:         $light-blue;
+// Color system
+$blue:  #0057AE;
+$light-blue:  #34AAE1;
+$grey:  #676767;
+$red:   #FD7674;
+$green: #25B486;
+
+$primary:   $blue;
+$danger:    $red;
+$success:   $green;
 
 // Typography
 $font-family-base: "Nexa", Helvetica, Arial, sans-serif;

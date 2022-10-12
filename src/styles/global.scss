@@ -1,10 +1,14 @@
-// Bulma overrides
-$body-size: 20px !default;
+// Variables
+@import './variables';
+
 // Bulma
 @import "bulma/bulma.sass";
 
-// Own variables
-@import './variables';
+// Bulma Overrides
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
 // Global styles
 @font-face {
