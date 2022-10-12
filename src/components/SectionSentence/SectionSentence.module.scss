@@ -14,11 +14,11 @@
   position: relative;
 
   &:hover > .sketch {
-    transform: translateX(-10%);
+    transform: translateX(-5%);
   }
 
   &:hover > .sentence { 
-    transform: translate(-65%, -50%);
+    transform: translate(-55%, -50%);
   }
 }
 
