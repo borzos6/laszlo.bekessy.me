@@ -19,10 +19,12 @@
     opacity: .5;
 }
 
-.container:hover > .sketch {
-    transform: translateX(0%) rotate(170deg);
-}
+.container {   
+    &:hover > .sketch {
+        transform: translateX(0%) rotate(170deg);
+    }
 
-.container:hover > .profile { 
-   transform: translateX(-50%);
+    &:hover > .profile { 
+        transform: translateX(-50%);
+    }
 }
