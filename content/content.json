@@ -1,0 +1,16 @@
+{
+    "strongestActualTechStack": [
+        { "devicon": "terraform", "name": "TF"},
+        { "devicon": "kubernetes", "name": "Kube"},
+        { "devicon": "amazonwebservices", "name": "AWS"},
+        { "devicon": "docker", "name": "Docker"},
+        { "devicon": "mongodb", "name": "Mongo"},
+        { "devicon": "nodejs", "name": "Node"},
+        { "devicon": "typescript", "name": "TS"},        
+        { "devicon": "gatsby", "name": "Gatsby"},
+        { "devicon": "react", "name": "React"},   
+        { "devicon": "bulma", "name": "Bulma"},
+        { "devicon": "vscode", "name": "VSCode"},
+        { "devicon": "git", "name": "Git"}
+    ]
+}

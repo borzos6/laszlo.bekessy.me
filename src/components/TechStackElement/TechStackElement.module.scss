@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.iconWrap {
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    border: .5px solid $grey-03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    margin-left: .2vw;
+    margin-right: .2vw;
+}
+
+.icon {
+    font-size: 4vw;
+}
