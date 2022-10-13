@@ -9,7 +9,9 @@ const IndexPage = () => {
       <IntroSection/>
       <Divider text="and this is what I do"/>
       <LeadSection/>
+      <div className='pt-6'></div>
       <TechSection/>
+      <div className='pt-6'></div>
       <TalentSection/>
       <Divider text="let's work together"/>
       <Divider text="sometimes I say things publicly"/>

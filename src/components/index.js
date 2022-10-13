@@ -5,3 +5,5 @@ export {Layout} from './Layout/Layout';
 export {ProjectCard} from './ProjectCard';
 export {SectionSentence} from './SectionSentence/SectionSentence';
 export {TechStackElement} from './TechStackElement/TechStackElement';
+export {TestimonialCard} from './TestimonialCard';
+export {Testimonials} from './Testimonials';

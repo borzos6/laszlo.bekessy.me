@@ -13,3 +13,9 @@ export { default as projectCodeBerry } from "./projects/codeberry.png";
 export { default as projectYearCompass } from "./projects/yearcompass.png";
 export { default as projectInvisibleUniversity } from "./projects/invisible-university.png";
 export { default as projectABF } from "./projects/abf.png";
+
+// Testimonials
+export { default as avatarNora } from "./avatars/nora.jpg";
+export { default as avatarEszter } from "./avatars/eszter.jpg";
+export { default as avatarSzilvia } from "./avatars/szilvia.jpg";
+export { default as avatarLaszlo } from "./avatars/laszlo.jpg";
