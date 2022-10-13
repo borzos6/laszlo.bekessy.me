@@ -2,7 +2,7 @@
   position: relative;
 
   &:hover > .sketch {
-    transform: translateX(5%);
+    transform: translateX(3%);
   }
 
   &:hover > .sentence { 
@@ -14,7 +14,7 @@
   position: relative;
 
   &:hover > .sketch {
-    transform: translateX(-5%);
+    transform: translateX(-3%);
   }
 
   &:hover > .sentence { 

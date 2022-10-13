@@ -19,7 +19,7 @@ const LeadSection = () => {
                 <h3 className="title is-size-3 mb-0 is-title-reveal">
                     <span className='has-text-danger'>{`${new Date().getFullYear()-2008}`} years</span> in leadership
                 </h3>
-                <Content size="">
+                <Content>
                     <ul>
                         <li>Leading teams of 4 to 250 <span className='has-text-weight-bold'>since 2008</span></li>
                         <li><span className='has-text-weight-bold'>Founder</span> of multiple non-profits (9y), SMBs (3y) and Startups (7y)</li>

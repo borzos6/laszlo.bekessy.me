@@ -5,12 +5,13 @@
         { "devicon": "amazonwebservices", "name": "AWS"},
         { "devicon": "docker", "name": "Docker"},
         { "devicon": "mongodb", "name": "Mongo"},
-        { "devicon": "nodejs", "name": "Node"},
+        { "devicon": "nodejs", "name": "Node.js"},
         { "devicon": "typescript", "name": "TS"},        
         { "devicon": "gatsby", "name": "Gatsby"},
         { "devicon": "react", "name": "React"},   
         { "devicon": "bulma", "name": "Bulma"},
-        { "devicon": "vscode", "name": "VSCode"},
-        { "devicon": "git", "name": "Git"}
+        { "devicon": "git", "name": "Git"},
+        { "devicon": "vscode", "name": "VSCode"}
+        
     ]
 }

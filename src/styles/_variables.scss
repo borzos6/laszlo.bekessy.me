@@ -2,14 +2,17 @@
 $body-size: 20px !default;
 
 // Color system
-$blue:  #0057AE;
-$light-blue:  #34AAE1;
-$grey:  #676767;
-$grey-03:  rgba(103, 103, 103, .3);
-$red:   #FD7674;
-$green: #25B486;
+$blue:       #0057AE;
+$light-blue: #34AAE1;
+$grey:       #676767;
+$grey-30p:   rgba(103, 103, 103, .3);
+$grey-10p:   rgba(103, 103, 103, .1);
+$grey-2p:    rgba(103, 103, 103, .02);
+$red:        #FD7674;
+$green:      #25B486;
 
 $primary:   $blue;
+$info:      $light-blue;
 $danger:    $red;
 $success:   $green;
 

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import PropTypes from 'prop-types';
 import {Content} from 'react-bulma-components';
-import {iconWrap, icon} from './TechStackElement.module.scss'
+import {iconWrap, icon, description} from './TechStackElement.module.scss'
 
 const TechStackElement = ({devicon, name}) => {
   return (
@@ -10,7 +10,7 @@ const TechStackElement = ({devicon, name}) => {
             <i className={`devicon-${devicon}-plain colored ${icon}`}></i>
         </div>
         
-        <small>{name}</small>
+        <small className={description}>{name}</small>
     </Content>
   )
 }
