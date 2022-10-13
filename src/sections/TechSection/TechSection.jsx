@@ -1,12 +1,12 @@
 import * as React from 'react'
 import { Container, Columns, Content } from 'react-bulma-components';
 import { SectionSentence } from '../../components/';
-import { StrongestTechStackSection } from '../../sections/';
 import { watercolor2Sketch } from '../../images';
+import { StrongestTechStackSection } from '../../sections/';
 
 const TechSection = () => {
   return (
-    <Container className='mt-4'>
+    <Container className='bg-gray-5p py-5'>
         <Columns className="side-feature" vCentered={true}>
             <Columns.Column size={6} offset={1} >
                 <h3 className="title is-size-3 mb-0 is-title-reveal">

@@ -15,12 +15,12 @@
   }
   
   &::before {
-    background: linear-gradient(to right, rgba(240,240,240,0), $grey);
+    background: linear-gradient(to right, rgba(240,240,240,0), $gray);
     margin-right: 4vh;
   }
   
   &::after {
-    background: linear-gradient(to left, rgba(240,240,240,0), $grey);
+    background: linear-gradient(to left, rgba(240,240,240,0), $gray);
     margin-left: 4vh;
   } 
 }

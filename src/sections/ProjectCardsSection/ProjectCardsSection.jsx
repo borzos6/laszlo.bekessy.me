@@ -8,7 +8,7 @@ const ProjectCardsSection = () => {
     <Container className='mt-4'>
         <Columns.Column>
             <Columns>
-                <Columns.Column size={6} className="pt-0 pb-0">
+                <Columns.Column size={6} className="pt-1 pb-1">
                     <ProjectCard 
                         logo={projectCodeBerry} 
                         name="CodeBerry School"
@@ -22,7 +22,7 @@ const ProjectCardsSection = () => {
                         </p>
                     </ProjectCard>
                 </Columns.Column>
-                <Columns.Column size={6} className="pt-0 pb-0">
+                <Columns.Column size={6} className="pt-1 pb-1">
                     <ProjectCard 
                         logo={projectYearCompass} 
                         name="YearCompass Movement"
@@ -36,7 +36,7 @@ const ProjectCardsSection = () => {
                         </p>
                     </ProjectCard>
                 </Columns.Column>
-                <Columns.Column size={6} className="pt-0 pb-0">
+                <Columns.Column size={6} className="pt-1 pb-1">
                     <ProjectCard 
                         logo={projectInvisibleUniversity} 
                         name="Invisible University"
@@ -49,7 +49,7 @@ const ProjectCardsSection = () => {
                         </p>
                     </ProjectCard>
                 </Columns.Column>
-                <Columns.Column size={6} className="pt-0 pb-0">
+                <Columns.Column size={6} className="pt-1 pb-1">
                     <ProjectCard 
                         logo={projectABF} 
                         name="ABF Informatics"

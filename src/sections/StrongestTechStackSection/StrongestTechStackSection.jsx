@@ -24,7 +24,7 @@ const StrongestTechStackSection = () => {
             data.allContentJson.nodes[0].strongestActualTechStack.map(node => (
                 <TechStackElement devicon={node.devicon} name={node.name}/>
             ))
-        }
+        }        
     </Columns> 
   )
 }

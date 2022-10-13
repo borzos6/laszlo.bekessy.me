@@ -6,7 +6,7 @@ import { ProjectCardsSection } from '../../sections';
 
 const LeadSection = () => {
   return (
-    <Container className='mt-4'>
+    <Container className='bg-gray-5p py-5'>
         <Columns className="side-feature" vCentered={true}>
             <Columns.Column size={4} offset={1}>
                 <SectionSentence
