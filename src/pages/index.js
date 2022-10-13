@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Layout, Connect } from '../components'
+import { Layout, Connect, PageFooter} from '../components'
 import { IntroSection, LeadSection, TechSection, TalentSection } from '../sections'
 import { Divider } from '../components'
 
@@ -15,8 +15,8 @@ const IndexPage = () => {
       <TalentSection/>
       <Divider text="let's connect"/>
       <Connect/>
-      <Divider text="sometimes I say things publicly"/>
-      <Divider text="and I'm excited about these topics"/>
+      <Divider/>
+      <PageFooter/>
     </Layout>
   )
 }

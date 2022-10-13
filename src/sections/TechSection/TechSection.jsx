@@ -34,9 +34,6 @@ const TechSection = () => {
                 <StrongestTechStackSection/>
             </Columns.Column>
         </Columns>
-
-        
-
     </Container>
   )
 }

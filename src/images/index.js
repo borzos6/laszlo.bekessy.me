@@ -7,6 +7,7 @@ export { default as globe2Sketch } from "./sketches/globe-2.webp";
 export { default as watercolor1Sketch } from "./sketches/watercolor-1.png";
 export { default as watercolor2Sketch } from "./sketches/watercolor-2.png";
 export { default as watercolor3Sketch } from "./sketches/watercolor-3.png";
+export { default as watercolor4Sketch } from "./sketches/watercolor-4.png";
 
 // Projects
 export { default as projectCodeBerry } from "./projects/codeberry.png";
