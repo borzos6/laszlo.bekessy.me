@@ -1,3 +1,4 @@
+export {Connect} from './Connect';
 export {ContactPoints} from './ContactPoints/ContactPoints';
 export {Divider} from './Divider/Divider';
 export {IntroPicture} from './IntroPicture/IntroPicture';
