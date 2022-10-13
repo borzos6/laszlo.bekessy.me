@@ -8,16 +8,16 @@ const IntroSection = () => {
         <Hero.Body>
             <Container>
                 <Columns vCentered={true}>
-                    <Columns.Column size={4} offset={1} className="landing-caption">
+                    <Columns.Column size={4} offset={1} className="landing-caption has-text-centered">
                         <h2 className="subtitle is-size-5 is-muted">
-                            Hello. My name is
+                            Hello. I am
                         </h2>
                         <h1 className="title is-size-2 is-bold">
                             László <br/> Békéssy
                         </h1>
                         <ContactPoints/>
                     </Columns.Column>
-                    <Columns.Column offset={1} size={4}>
+                    <Columns.Column offset={1} size={6}>
                         <IntroPicture/>
                     </Columns.Column>
                 </Columns>
