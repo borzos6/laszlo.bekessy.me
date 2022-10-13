@@ -16,7 +16,7 @@ const TalentSection = () => {
             </Columns.Column>
             <Columns.Column size={6}  >
                 <h3 className="title is-size-3 mb-0 is-title-reveal">
-                    <span className='has-text-danger'>500+ hours </span>spent in teaching others through worshops and coaching
+                    <span className='has-text-danger'>500+ hours </span>spent in teaching and coaching
                 </h3>
                 <Content>
                     <ul>

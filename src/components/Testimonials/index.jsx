@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Container, Columns, Content } from 'react-bulma-components';
+import { Container, Columns } from 'react-bulma-components';
 import { TestimonialCard } from '../../components/';
-import { avatarNora, avatarSzilvia, avatarLaszlo, avatarEszter } from '../../images';
+import { avatarNora, avatarSzilvia, avatarLaszlo } from '../../images';
 
 const Testimonials = () => {
   return (
@@ -13,10 +13,10 @@ const Testimonials = () => {
                         name="Nóra"
                         date="2022-03"
                         thumbnail={avatarNora}
-                        oneliner="Invaluable experience and good intentions are rare to come by"
+                        oneliner="Invaluable insight and good intentions are rare to come by in a person"
                     >
                         <p>
-                            "Working with László was a complete and positive experience - 
+                            „Working with László was a complete and positive experience - 
                             he always treated all of the team members with full professionalism and a huge desire to help. 
                             <br/><br/>
                             
@@ -24,7 +24,7 @@ const Testimonials = () => {
                             and actively helped to see when we could have been thinking about a topic differently. 
                             <br/><br/>
                             
-                            We would choose him again as a mentor anytime, because invaluable experience and good intentions are rare to come by."
+                            We would choose him again as a mentor anytime, because invaluable experience and good intentions are rare to come by in a person.”
                         </p>
                     </TestimonialCard>
                 </Columns.Column>
