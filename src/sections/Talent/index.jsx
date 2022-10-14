@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
-import { Splash, Testimonials } from '../../components/';
+import { Splash, Testimonials } from '../../components';
 import { watercolor3Sketch } from '../../images';
 
-const TalentSection = () => {
+const Talent = () => {
     return (
         <Container className="bg-gray-5p py-5">
             <Columns className="side-feature" vCentered={true}>
@@ -42,4 +42,4 @@ const TalentSection = () => {
     );
 };
 
-export { TalentSection };
+export { Talent };

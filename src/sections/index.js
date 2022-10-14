@@ -1,6 +1,4 @@
-export {IntroSection} from './IntroSection/IntroSection';
-export {LeadSection} from './LeadSection/LeadSection';
-export {ProjectCardsSection} from './ProjectCardsSection/ProjectCardsSection';
-export {TalentSection} from './TalentSection/TalentSection';
-export {TechSection} from './TechSection/TechSection';
-export {StrongestTechStackSection} from './StrongestTechStackSection/StrongestTechStackSection';
+export { Intro } from './Intro';
+export { Lead } from './Lead';
+export { Talent } from './Talent';
+export { Tech } from './Tech';

@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
-import { Splash } from '../../components/';
+import { Splash, StrongestTechStack } from '../../components';
 import { watercolor2Sketch } from '../../images';
-import { StrongestTechStackSection } from '../../sections/';
 
-const TechSection = () => {
+const Tech = () => {
     return (
         <Container className="bg-gray-5p py-5">
             <Columns className="side-feature" vCentered={true}>
@@ -37,11 +36,11 @@ const TechSection = () => {
                     <h4 className="title mb-0 is-size-5">
                         My actual <span className="has-text-info">strongest</span> stack
                     </h4>
-                    <StrongestTechStackSection />
+                    <StrongestTechStack />
                 </Columns.Column>
             </Columns>
         </Container>
     );
 };
 
-export { TechSection };
+export { Tech };

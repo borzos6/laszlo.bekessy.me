@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Hero, Container, Columns } from 'react-bulma-components';
 import { ContactPoints } from '..';
 
-const ConnectCTA = () => {
+const Connect = () => {
     return (
         <Hero size="small">
             <Hero.Body>
@@ -20,4 +20,4 @@ const ConnectCTA = () => {
     );
 };
 
-export { ConnectCTA };
+export { Connect };

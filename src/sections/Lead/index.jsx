@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
-import { Splash } from '../../components/';
+import { Splash, ProjectCards } from '../../components';
 import { watercolor1Sketch } from '../../images';
-import { ProjectCardsSection } from '../../sections';
+import {} from '..';
 
-const LeadSection = () => {
+const Lead = () => {
     return (
         <Container className="bg-gray-5p py-5">
             <Columns className="side-feature" vCentered={true}>
@@ -41,9 +41,9 @@ const LeadSection = () => {
                 </Columns.Column>
             </Columns>
 
-            <ProjectCardsSection />
+            <ProjectCards />
         </Container>
     );
 };
 
-export { LeadSection };
+export { Lead };

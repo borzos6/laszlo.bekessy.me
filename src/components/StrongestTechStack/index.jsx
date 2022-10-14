@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Columns } from 'react-bulma-components';
-import { TechStackIcon } from '../../components/';
+import { TechStackIcon } from '..';
 
-const StrongestTechStackSection = () => {
+const StrongestTechStack = () => {
     const data = useStaticQuery(graphql`
         query {
             allContentJson {
@@ -25,4 +25,4 @@ const StrongestTechStackSection = () => {
     );
 };
 
-export { StrongestTechStackSection };
+export { StrongestTechStack };

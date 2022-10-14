@@ -1,20 +1,20 @@
 import * as React from 'react';
-import { Layout, ConnectCTA, PageFooter } from '../components';
-import { IntroSection, LeadSection, TechSection, TalentSection } from '../sections';
+import { Layout, Connect, PageFooter } from '../components';
+import { Intro, Lead, Tech, Talent } from '../sections';
 import { Divider } from '../components';
 
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroSection />
+            <Intro />
             <Divider text="and this is what I do" />
-            <LeadSection />
+            <Lead />
             <div className="pt-6"></div>
-            <TechSection />
+            <Tech />
             <div className="pt-6"></div>
-            <TalentSection />
+            <Talent />
             <Divider text="let's connect" />
-            <ConnectCTA />
+            <Connect />
             <Divider />
             <PageFooter />
         </Layout>
