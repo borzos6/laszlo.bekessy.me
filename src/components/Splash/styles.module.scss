@@ -1,0 +1,41 @@
+.containerLeft {
+  position: relative;
+
+  &:hover > .sketch {
+    transform: translateX(3%);
+  }
+
+  &:hover > .sentence { 
+    transform: translate(-45%, -50%);
+  }
+}
+
+.containerRight {
+  position: relative;
+
+  &:hover > .sketch {
+    transform: translateX(-3%);
+  }
+
+  &:hover > .sentence { 
+    transform: translate(-55%, -50%);
+  }
+}
+
+.sentence {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease !important;
+  font-size: 3.5vw;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.sketch {
+    z-index: -2;
+    transition: all 2s ease !important;
+    opacity: .7;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "laszlo.bekessy.me",
+  "version": "1.0.0",
+  "private": true,
+  "description": "laszlo.bekessy.me",
+  "author": "László Békéssy",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint ./src/**/*.jsx ./src/**/*.js"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "devicon": "^2.15.1",
+    "gatsby": "^4.24.3",
+    "gatsby-plugin-google-analytics": "^4.24.0",
+    "gatsby-plugin-sass": "^5.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-json": "^4.24.0",
+    "react": "^18.1.0",
+    "react-bulma-components": "^4.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
