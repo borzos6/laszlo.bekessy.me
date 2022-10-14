@@ -1,12 +1,15 @@
 {
   "name": "laszlo.bekessy.me",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "laszlo.bekessy.me",
-  "author": "László Békéssy",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "Intro, contact, and portfolio page for László Békéssy @borzos6",
+  "author": "László Békéssy @borzos6",
+  "keywords": ["gatsby", "bulma", "react", "sass", "fontawesome", "devicon", "aws"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borzos6/laszlo.bekessy.me"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
