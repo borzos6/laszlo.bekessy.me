@@ -58,7 +58,7 @@ module.exports = {
                         }
                     }
                 `,
-                resolveSiteUrl: () => siteUrl,
+                resolveSiteUrl: () => `https://laszlo.bekessy.me`,
                 resolvePages: ({ allSitePage: { nodes: allPages } }) => {
                     return allPages.map((page) => {
                         return { ...page };
