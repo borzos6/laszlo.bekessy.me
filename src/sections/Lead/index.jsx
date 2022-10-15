@@ -6,13 +6,26 @@ import {} from '..';
 
 const Lead = () => {
     return (
-        <Container className="bg-gray-5p py-5">
+        <Container className="bg-gray-5p pt-5 pb-0">
             <Columns className="side-feature" vCentered={true}>
-                <Columns.Column size={4} offset={1}>
+                <Columns.Column
+                    tablet={{
+                        size: 5,
+                    }}
+                    desktop={{
+                        size: 4,
+                        offset: 1,
+                    }}>
                     <Splash sentence="I lead teams" imageSrc={watercolor1Sketch} isLeft={true} />
                 </Columns.Column>
-                <Columns.Column size={6}>
-                    <h3 className="title is-size-3 mb-0 is-title-reveal">
+                <Columns.Column
+                    tablet={{
+                        size: 7,
+                    }}
+                    desktop={{
+                        size: 6,
+                    }}>
+                    <h3 className="title is-size-3-desktop is-size-4-tablet mb-0 is-title-reveal">
                         <span className="has-text-danger">{`${new Date().getFullYear() - 2008}`} years</span> in
                         leadership
                     </h3>
@@ -40,7 +53,6 @@ const Lead = () => {
                     </Content>
                 </Columns.Column>
             </Columns>
-
             <ProjectCards />
         </Container>
     );
