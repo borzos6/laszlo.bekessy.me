@@ -5,11 +5,18 @@ import { watercolor2Sketch } from '../../images';
 
 const Tech = () => {
     return (
-        <Container className="bg-gray-5p py-5">
-            <Columns className="side-feature" vCentered={true}>
-                <Columns.Column size={6} offset={1}>
-                    <h3 className="title is-size-3 mb-0 is-title-reveal">
-                        <span className="has-text-info">CTO, architect, </span>software engineer for{' '}
+        <Container className="bg-gray-5p pt-0 mb-5">
+            <Columns className="side-feature mt-0" vCentered={true}>
+                <Columns.Column
+                    tablet={{
+                        size: 7,
+                    }}
+                    desktop={{
+                        size: 6,
+                        offset: 1,
+                    }}>
+                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 title is-title-reveal">
+                        <span className="has-text-info">CTO, architect, </span>engineer for{' '}
                         {`${new Date().getFullYear() - 2004}`}+ years
                     </h3>
                     <Content>
@@ -29,13 +36,23 @@ const Tech = () => {
                         </ul>
                     </Content>
                 </Columns.Column>
-                <Columns.Column size={4}>
+                <Columns.Column
+                    tablet={{
+                        size: 5,
+                    }}
+                    desktop={{
+                        size: 4,
+                    }}>
                     <Splash sentence="I'm a tech generalist" imageSrc={watercolor2Sketch} isLeft={false} />
                 </Columns.Column>
-                <Columns.Column size={10} offset={1} className="mt-3">
-                    <h4 className="title mb-0 is-size-5">
-                        My actual <span className="has-text-info">strongest</span> stack
-                    </h4>
+                <Columns.Column
+                    tablet={{
+                        size: 12,
+                    }}
+                    desktop={{
+                        size: 10,
+                        offset: 1,
+                    }}>
                     <StrongestTechStack />
                 </Columns.Column>
             </Columns>
