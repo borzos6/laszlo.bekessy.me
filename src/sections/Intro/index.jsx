@@ -7,15 +7,18 @@ const Intro = () => {
         <Hero>
             <Hero.Body>
                 <Container>
-                    <Columns vCentered={true}>
-                        <Columns.Column size={4} offset={1} className="landing-caption has-text-centered">
-                            <h2 className="subtitle is-size-5 is-muted">Hello. I am</h2>
-                            <h1 className="title is-size-2 is-bold">
+                    <Columns vCentered={true} className="is-mobile">
+                        <Columns.Column
+                            mobile={{ size: 8 }}
+                            tablet={{ size: 4, offset: 1 }}
+                            className="landing-caption has-text-centered">
+                            <p className="subtitle is-size-5-tablet is-size-6-mobile is-muted">Hello. I am</p>
+                            <h2 className="title is-size-2-tablet is-size-3-mobile is-bold">
                                 László <br /> Békéssy
-                            </h1>
+                            </h2>
                             <ContactPoints />
                         </Columns.Column>
-                        <Columns.Column offset={1} size={6}>
+                        <Columns.Column mobile={{ size: 4 }} tablet={{ size: 6, offset: 1 }}>
                             <IntroPicture />
                         </Columns.Column>
                     </Columns>

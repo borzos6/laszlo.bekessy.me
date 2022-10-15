@@ -5,15 +5,14 @@
 .profile {
     transform: translateX(-55%);
     z-index: 0;
-    width: 25vw;
+    width: 22vw;
     transition: all 1s ease;
-    top: 4.5vw;
 }
 
 .sketch {
     position: absolute;
     transform: translateX(5%) rotate(180deg);
-    bottom: -2vw;
+    top: 1vmin;
     width: 35vw;
     z-index: -2;
     transition: all 2s ease;
