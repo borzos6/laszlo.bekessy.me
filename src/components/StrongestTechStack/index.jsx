@@ -19,7 +19,7 @@ const StrongestTechStack = () => {
     return (
         <Columns className="mt-4">
             {data.allContentJson.nodes[0].strongestActualTechStack.map((node) => (
-                <TechStackIcon devicon={node.devicon} name={node.name} />
+                <TechStackIcon key={node.name} devicon={node.devicon} name={node.name} />
             ))}
         </Columns>
     );

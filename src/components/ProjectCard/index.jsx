@@ -12,19 +12,17 @@ const ProjectCard = (props) => {
                 </Media.Item>
                 <Media.Item align="center">
                     <Content size="small">
-                        <p>
-                            <strong>{props.name}</strong>&nbsp;
-                            {props.url && (
-                                <span>
-                                    |{' '}
-                                    <a href={props.url} target="_blank" rel="noreferrer">
-                                        Visit site
-                                    </a>
-                                </span>
-                            )}
-                            <br />
-                            {props.children}
-                        </p>
+                        <strong>{props.name}</strong>&nbsp;
+                        {props.url && (
+                            <span>
+                                |{' '}
+                                <a href={props.url} target="_blank" rel="noreferrer">
+                                    Visit site
+                                </a>
+                            </span>
+                        )}
+                        <br />
+                        {props.children}
                     </Content>
                 </Media.Item>
             </Media>

@@ -5,7 +5,7 @@ import * as styles from './styles.module.scss';
 
 const TechStackIcon = (props) => {
     return (
-        <Content small={true} className="has-text-centered">
+        <Content small="true" className="has-text-centered">
             <div className={`${styles.iconWrap}`}>
                 <i className={`devicon-${props.devicon}-plain colored ${styles.icon}`}></i>
             </div>
