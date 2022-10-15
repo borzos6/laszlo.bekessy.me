@@ -30,7 +30,7 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       
       - name: Deploy to S3
-        run: aws s3 sync ./public s3://laszlo.bekessy.me/v2 --delete
+        run: aws s3 sync ./public s3://laszlo.bekessy.me/ --delete
       
       - name: Invalidate CloudFront Cache
         uses: chetan/invalidate-cloudfront-action@v2
