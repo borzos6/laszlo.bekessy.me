@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Layout, Connect, PageFooter } from '../components';
+import { Layout, Connect, PageFooter, Seo } from '../components';
 import { Intro, Lead, Tech, Talent } from '../sections';
 import { Divider } from '../components';
 
@@ -21,6 +21,6 @@ const IndexPage = () => {
     );
 };
 
-export const Head = () => <title>FIXME SEO</title>;
+export const Head = () => <Seo />;
 
 export default IndexPage;

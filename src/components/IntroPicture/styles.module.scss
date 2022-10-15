@@ -6,7 +6,8 @@
     transform: translateX(-55%);
     z-index: 0;
     width: 25vw;
-    transition: all 1s ease !important;
+    transition: all 1s ease;
+    top: 4.5vw;
 }
 
 .sketch {
@@ -15,7 +16,7 @@
     bottom: -2vw;
     width: 35vw;
     z-index: -2;
-    transition: all 2s ease !important;
+    transition: all 2s ease;
     opacity: .5;
 }
 

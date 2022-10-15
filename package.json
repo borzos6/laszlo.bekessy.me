@@ -4,7 +4,15 @@
   "private": true,
   "description": "Intro, contact, and portfolio page for László Békéssy @borzos6",
   "author": "László Békéssy @borzos6",
-  "keywords": ["gatsby", "bulma", "react", "sass", "fontawesome", "devicon", "aws"],
+  "keywords": [
+    "gatsby",
+    "bulma",
+    "react",
+    "sass",
+    "fontawesome",
+    "devicon",
+    "aws"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -25,6 +33,8 @@
     "devicon": "^2.15.1",
     "gatsby": "^4.24.3",
     "gatsby-plugin-google-analytics": "^4.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-offline": "^5.24.0",
     "gatsby-plugin-sass": "^5.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-json": "^4.24.0",
