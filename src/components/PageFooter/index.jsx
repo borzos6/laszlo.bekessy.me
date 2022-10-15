@@ -18,9 +18,9 @@ const PageFooter = () => {
                                     className="has-text-weight-bold has-text-primary">
                                     {' '}
                                     MIT
-                                    <br />
                                 </a>
-                                . The website content is licensed{' '}
+                                . <br />
+                                The website content is licensed{' '}
                                 <a
                                     href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
                                     className="has-text-weight-bold has-text-primary">

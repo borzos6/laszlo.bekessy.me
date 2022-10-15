@@ -17,10 +17,7 @@ const ProjectCards = () => {
                         </ProjectCard>
                     </Columns.Column>
                     <Columns.Column size={6} className="py-1">
-                        <ProjectCard
-                            logo={projectYearCompass}
-                            name="YearCompass Movement"
-                            url="https://yearcompass.com">
+                        <ProjectCard logo={projectYearCompass} name="YearCompass" url="https://yearcompass.com">
                             <span className="has-text-weight-bold has-text-primary">Co-founder and Project Lead </span>
                             for a not-for-profit. Used by millions every year, translated to
                             <span className="has-text-weight-bold has-text-primary"> 52 languages. </span>

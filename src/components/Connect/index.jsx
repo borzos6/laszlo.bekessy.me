@@ -9,7 +9,7 @@ const Connect = () => {
                 <Container>
                     <Columns vCentered={true}>
                         <Columns.Column size={10} offset={1} className="landing-caption has-text-centered">
-                            <h2 className="title is-size-3 is-muted">Does it make sense to connect?</h2>
+                            <h2 className="title is-size-3 is-muted">Let's connect!</h2>
                             <h3 className="subtitle is-size-5 is-muted">here's how:</h3>
                             <ContactPoints />
                         </Columns.Column>

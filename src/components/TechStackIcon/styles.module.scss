@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 
-.iconWrap {
+.icon-wrap {
     height: 5vw;
     width: 5vw;
     border-radius: 50%;
@@ -25,4 +25,17 @@
 
 .description {
     font-size: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+    .icon-wrap {
+        height: 10vw;
+        width: 10vw;
+    }
+    .icon {
+        font-size: 7vw;
+    }
+    .description {
+        font-size: 2.5vw;
+    }
 }

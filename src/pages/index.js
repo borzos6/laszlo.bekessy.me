@@ -13,7 +13,7 @@ const IndexPage = () => {
             <Tech />
             <div className="pt-6"></div>
             <Talent />
-            <Divider text="let's connect" />
+            <Divider />
             <Connect />
             <Divider />
             <PageFooter />

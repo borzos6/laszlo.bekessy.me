@@ -15,12 +15,11 @@ const Testimonials = () => {
                             thumbnail={avatarNora}
                             oneliner="Complete and positive experience">
                             <p>
-                                „Working with László was a complete and positive experience - he always treated all of
-                                the team members with full professionalism and a huge desire to help.
+                                I had a great experience working with László. He was always professional and eager to
+                                help out.
                                 <br />
-                                <br />
-                                We would choose him again as a mentor anytime, because invaluable expertise and good
-                                intentions are rare to come by in a single person.”
+                                <br />I would definitely choose him as a mentor again because it's rare to find someone
+                                with so much expertise and good intentions.
                             </p>
                         </TestimonialCard>
                     </Columns.Column>

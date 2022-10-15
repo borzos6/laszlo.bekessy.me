@@ -28,3 +28,13 @@
         transform: translateX(-50%);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .sketch {
+        top: 2.5vw;
+    }
+
+    .profile {
+        bottom: 2vh;
+    }
+}

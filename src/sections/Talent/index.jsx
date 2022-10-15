@@ -5,9 +5,13 @@ import { watercolor3Sketch } from '../../images';
 
 const Talent = () => {
     return (
-        <Container className="bg-gray-5p pt-0 mb-0 px-1">
+        <Container className="bg-gray-5p pt-0 mb-5 px-1">
             <Columns className="side-feature " vCentered={true}>
                 <Columns.Column
+                    mobile={{
+                        size: 8,
+                        offset: 2,
+                    }}
                     tablet={{
                         size: 5,
                     }}

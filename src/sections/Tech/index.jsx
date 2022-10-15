@@ -6,7 +6,7 @@ import { watercolor2Sketch } from '../../images';
 const Tech = () => {
     return (
         <Container className="bg-gray-5p pt-0 mb-5 px-1">
-            <Columns className="side-feature mt-0" vCentered={true}>
+            <Columns className="side-feature is-mobile mt-0" vCentered={true}>
                 <Columns.Column
                     tablet={{
                         size: 7,
@@ -26,8 +26,8 @@ const Tech = () => {
                                 with every aspect of software engineering
                             </li>
                             <li>
-                                Specialist in <span className="has-text-weight-bold">vertical integration. </span>
-                                Comfortably working from infrastructure to UX design
+                                Specialist in <span className="has-text-weight-bold">vertical integration: </span>
+                                comfortably working on every aspect, from infrastructure to UX design
                             </li>
                             <li>
                                 <span className="has-text-weight-bold">Tech lead with human touch</span> – focuses on
@@ -37,6 +37,10 @@ const Tech = () => {
                     </Content>
                 </Columns.Column>
                 <Columns.Column
+                    mobile={{
+                        size: 8,
+                        offset: 2,
+                    }}
                     tablet={{
                         size: 5,
                     }}

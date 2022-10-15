@@ -17,11 +17,11 @@ const StrongestTechStack = () => {
         }
     `);
     return (
-        <div className="pl-5">
+        <div className="px-5">
             <h5 className="title mb-0 is-size-5">
                 My actual <span className="has-text-info">strongest</span> stack
             </h5>
-            <Columns className="mt-4 pl-3">
+            <Columns className="mt-4 pl-3 is-mobile">
                 {data.allContentJson.nodes[0].strongestActualTechStack.map((node) => (
                     <TechStackIcon key={node.name} devicon={node.devicon} name={node.name} />
                 ))}

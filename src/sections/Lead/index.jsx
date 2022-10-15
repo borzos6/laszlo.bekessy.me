@@ -7,8 +7,12 @@ import {} from '..';
 const Lead = () => {
     return (
         <Container className="bg-gray-5p pt-0 mb-0 px-1">
-            <Columns className="side-feature" vCentered={true}>
+            <Columns className="side-feature is-mobile" vCentered={true}>
                 <Columns.Column
+                    mobile={{
+                        size: 8,
+                        offset: 2,
+                    }}
                     tablet={{
                         size: 5,
                     }}

@@ -13,7 +13,7 @@ const Intro = () => {
                             tablet={{ size: 4, offset: 1 }}
                             className="landing-caption has-text-centered">
                             <p className="subtitle is-size-5-tablet is-size-6-mobile is-muted">Hello. I am</p>
-                            <h2 className="title is-size-2-tablet is-size-3-mobile is-bold">
+                            <h2 className="title is-size-2-tablet is-size-4-touch is-bold">
                                 László <br /> Békéssy
                             </h2>
                             <ContactPoints />
