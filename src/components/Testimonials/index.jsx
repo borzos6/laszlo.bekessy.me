@@ -1,35 +1,30 @@
 import * as React from 'react';
 import { Container, Columns } from 'react-bulma-components';
 import { TestimonialCard } from '..';
-import { avatarNora, avatarSzilvia, avatarLaszlo } from '../../images';
+import { avatarNora } from '../../images';
 
 const Testimonials = () => {
     return (
-        <Container className="mt-4">
+        <Container>
             <Columns.Column>
                 <Columns>
-                    <Columns.Column size={4}>
+                    <Columns.Column tablet={{ size: 6 }} desktop={{ size: 4 }}>
                         <TestimonialCard
                             name="Nóra"
                             date="2022-03"
                             thumbnail={avatarNora}
-                            oneliner="Invaluable insight and good intentions are rare to come by in a person">
+                            oneliner="Complete and positive experience">
                             <p>
                                 „Working with László was a complete and positive experience - he always treated all of
                                 the team members with full professionalism and a huge desire to help.
                                 <br />
                                 <br />
-                                He tried to direct us using the knowledge and experience he gained in the world of
-                                startups, and actively helped to see when we could have been thinking about a topic
-                                differently.
-                                <br />
-                                <br />
-                                We would choose him again as a mentor anytime, because invaluable experience and good
-                                intentions are rare to come by in a person.”
+                                We would choose him again as a mentor anytime, because invaluable expertise and good
+                                intentions are rare to come by in a single person.”
                             </p>
                         </TestimonialCard>
                     </Columns.Column>
-                    <Columns.Column size={4}>
+                    {/* <Columns.Column size={4}>
                         <TestimonialCard
                             name="László"
                             date="2022-10"
@@ -73,7 +68,7 @@ const Testimonials = () => {
                                 <br />
                             </p>
                         </TestimonialCard>
-                    </Columns.Column>
+                    </Columns.Column> */}
                 </Columns>
             </Columns.Column>
         </Container>

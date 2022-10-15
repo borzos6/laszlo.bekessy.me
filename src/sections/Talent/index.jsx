@@ -5,14 +5,27 @@ import { watercolor3Sketch } from '../../images';
 
 const Talent = () => {
     return (
-        <Container className="bg-gray-5p py-5">
-            <Columns className="side-feature" vCentered={true}>
-                <Columns.Column size={4} offset={1}>
+        <Container className="bg-gray-5p pt-0 mb-0 px-1">
+            <Columns className="side-feature " vCentered={true}>
+                <Columns.Column
+                    tablet={{
+                        size: 5,
+                    }}
+                    desktop={{
+                        size: 4,
+                        offset: 1,
+                    }}>
                     <Splash sentence="I help the talented" imageSrc={watercolor3Sketch} isLeft={true} />
                 </Columns.Column>
-                <Columns.Column size={6}>
-                    <h3 className="title is-size-3 mb-0 is-title-reveal">
-                        <span className="has-text-danger">500+ hours </span>spent in teaching and coaching
+                <Columns.Column
+                    tablet={{
+                        size: 7,
+                    }}
+                    desktop={{
+                        size: 6,
+                    }}>
+                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
+                        <span className="has-text-warning">500+ hours </span>spent in teaching and coaching
                     </h3>
                     <Content>
                         <ul>

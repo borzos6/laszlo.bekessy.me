@@ -5,7 +5,7 @@ import { watercolor2Sketch } from '../../images';
 
 const Tech = () => {
     return (
-        <Container className="bg-gray-5p pt-0 mb-5">
+        <Container className="bg-gray-5p pt-0 mb-5 px-1">
             <Columns className="side-feature mt-0" vCentered={true}>
                 <Columns.Column
                     tablet={{
@@ -15,7 +15,7 @@ const Tech = () => {
                         size: 6,
                         offset: 1,
                     }}>
-                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 title is-title-reveal">
+                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
                         <span className="has-text-info">CTO, architect, </span>engineer for{' '}
                         {`${new Date().getFullYear() - 2004}`}+ years
                     </h3>

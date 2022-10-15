@@ -15,7 +15,7 @@ const PageFooter = () => {
                                 Made by László Békéssy. The source code is licensed under
                                 <a
                                     href="http://opensource.org/licenses/mit-license.php"
-                                    className="has-text-weight-bold has-text-info">
+                                    className="has-text-weight-bold has-text-primary">
                                     {' '}
                                     MIT
                                     <br />
@@ -23,7 +23,7 @@ const PageFooter = () => {
                                 . The website content is licensed{' '}
                                 <a
                                     href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                                    className="has-text-weight-bold has-text-info">
+                                    className="has-text-weight-bold has-text-primary">
                                     CC BY NC SA 4.0
                                 </a>
                                 .
@@ -31,7 +31,7 @@ const PageFooter = () => {
                                 Follow the link for the{' '}
                                 <a
                                     href="http://github.com/borzos6/laszlo.bekessy.me/"
-                                    className="has-text-weight-bold has-text-info">
+                                    className="has-text-weight-bold has-text-primary">
                                     Source Code
                                 </a>
                                 .

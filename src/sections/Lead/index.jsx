@@ -6,7 +6,7 @@ import {} from '..';
 
 const Lead = () => {
     return (
-        <Container className="bg-gray-5p pt-5 mb-0">
+        <Container className="bg-gray-5p pt-0 mb-0 px-1">
             <Columns className="side-feature" vCentered={true}>
                 <Columns.Column
                     tablet={{
@@ -25,7 +25,7 @@ const Lead = () => {
                     desktop={{
                         size: 6,
                     }}>
-                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 title is-title-reveal">
+                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
                         <span className="has-text-danger">{`${new Date().getFullYear() - 2008}`} years</span> in
                         leadership
                     </h3>

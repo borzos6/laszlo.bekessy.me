@@ -7,7 +7,7 @@ const TestimonialCard = (props) => {
     return (
         <Card className={styles.wrapper}>
             <Card.Header>
-                <p className={`card-header-title has-text-primary has-text-centered ${styles.centered}`}>
+                <p className={`card-header-title has-text-warning has-text-centered ${styles.centered}`}>
                     {props.oneliner}
                 </p>
             </Card.Header>
