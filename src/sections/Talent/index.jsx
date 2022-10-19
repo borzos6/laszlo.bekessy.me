@@ -29,7 +29,7 @@ const Talent = () => {
                         size: 6,
                     }}>
                     <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
-                        <span className="has-text-warning">500+ hours </span>spent in teaching and coaching
+                        <span className="has-text-success">500+ hours </span>spent in teaching and coaching
                     </h3>
                     <Content>
                         <ul>
