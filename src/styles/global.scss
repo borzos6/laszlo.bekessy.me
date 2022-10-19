@@ -7,6 +7,9 @@
 // Bulma
 @import "bulma/bulma.sass";
 
+// Fontawesome (need to be loaded here to prevent huge icons on pageload)
+@import '@fortawesome/fontawesome-svg-core/styles';
+
 // Bulma Overrides
 .column {
   display: flex;

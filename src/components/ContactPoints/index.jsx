@@ -1,10 +1,14 @@
 import * as React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config as FontAwesomeConfig } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
 import * as styles from './styles.module.scss';
 
 const ContactPoints = () => {
+    // Prevent flashload (huge icons on pageload)
+    FontAwesomeConfig.autoAddCss = false;
+
     return (
         <h2 className={`is-size-3 is-muted ${styles.container}`}>
             <a
