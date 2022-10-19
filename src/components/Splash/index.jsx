@@ -6,7 +6,7 @@ import * as styles from './styles.module.scss';
 const Splash = (props) => {
     return (
         <div className={`${props.isLeft ? styles.containerLeft : styles.containerRight} has-text-centered`}>
-            <Image src={props.imageSrc} className={`${styles.sketch} image`} alt="Sketch" />
+            <Image src={props.imageSrc} className={`${styles.sketch} image`} alt="Watercolor splash" />
             <h1 className={`${styles.sentence}`}>{props.sentence}</h1>
         </div>
     );

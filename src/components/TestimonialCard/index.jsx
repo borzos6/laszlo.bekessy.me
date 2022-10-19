@@ -17,7 +17,7 @@ const TestimonialCard = (props) => {
                     <Media.Item renderAs="figure" align="left">
                         <Image
                             size={128}
-                            alt="avatar 64x64"
+                            alt={`${props.name} avatar`}
                             src={props.thumbnail}
                             className={styles.avatar}
                             rounded={true}

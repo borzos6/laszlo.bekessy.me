@@ -7,15 +7,19 @@ import * as styles from './styles.module.scss';
 const ContactPoints = () => {
     return (
         <h2 className={`is-size-3 is-muted ${styles.container}`}>
-            <a href="https://linkedin.com/in/laszlo-bekessy" target="_blank" rel="noreferrer">
+            <a
+                href="https://linkedin.com/in/laszlo-bekessy"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn profile">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
             &nbsp;
-            <a href="https://github.com/borzos6" target="_blank" rel="noreferrer">
+            <a href="https://github.com/borzos6" target="_blank" rel="noreferrer" aria-label="GitHub profile">
                 <FontAwesomeIcon icon={faGithubSquare} />
             </a>
             &nbsp;
-            <a href="mailto:laszlo@bekessy.me" target="_blank" rel="noreferrer">
+            <a href="mailto:laszlo@bekessy.me" target="_blank" rel="noreferrer" aria-label="Contact email">
                 <FontAwesomeIcon icon={faSquareEnvelope} />
             </a>
         </h2>

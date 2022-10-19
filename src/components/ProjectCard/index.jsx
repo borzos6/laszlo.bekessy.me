@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
         <Box className={`${styles.box}`}>
             <Media renderAs="article">
                 <Media.Item align="left">
-                    <Image src={props.logo} size={64} alt="Project logo" />
+                    <Image src={props.logo} size={64} alt={`${props.name} project logo`} />
                 </Media.Item>
                 <Media.Item align="center">
                     <Content size="small">
@@ -16,7 +16,11 @@ const ProjectCard = (props) => {
                         {props.url && (
                             <span>
                                 |{' '}
-                                <a href={props.url} target="_blank" rel="noreferrer">
+                                <a
+                                    href={props.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label={`${props.name} site link`}>
                                     Visit site
                                 </a>
                             </span>

@@ -7,8 +7,16 @@ const IntroPicture = () => {
     return (
         <div className={syles.container}>
             <Image src={standingProfilePicture} className={`${syles.profile} ${syles.picture}`} alt="Profile" />
-            <Image src={globe1Sketch} className={`${syles.sketch} ${syles.picture}`} alt="Sketch" />
-            <Image src={globe2Sketch} className={`${syles.sketch} ${syles.picture}`} alt="Sketch" />
+            <Image
+                src={globe1Sketch}
+                className={`${syles.sketch} ${syles.picture}`}
+                alt="Tech globe sketch 1st layer"
+            />
+            <Image
+                src={globe2Sketch}
+                className={`${syles.sketch} ${syles.picture}`}
+                alt="Tech globe sketch 2nd layer"
+            />
         </div>
     );
 };
