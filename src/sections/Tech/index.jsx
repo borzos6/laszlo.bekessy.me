@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
 import { Splash, StrongestTechStack } from '../../components';
-import { watercolor2Sketch } from '../../images';
+import { watercolorSplash2 } from '../../images';
 
 const Tech = () => {
     return (
@@ -15,10 +15,10 @@ const Tech = () => {
                         size: 6,
                         offset: 1,
                     }}>
-                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
+                    <h1 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
                         <span className="has-text-info">CTO, architect, </span>engineer for{' '}
                         {`${new Date().getFullYear() - 2004}`}+ years
-                    </h3>
+                    </h1>
                     <Content>
                         <ul>
                             <li>
@@ -47,7 +47,7 @@ const Tech = () => {
                     desktop={{
                         size: 4,
                     }}>
-                    <Splash sentence="I'm a tech generalist" imageSrc={watercolor2Sketch} isLeft={false} />
+                    <Splash sentence="I'm a tech generalist" imageSrc={watercolorSplash2} size="1by1" isLeft={false} />
                 </Columns.Column>
                 <Columns.Column
                     mobile={{

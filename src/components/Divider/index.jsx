@@ -1,10 +1,10 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import * as syles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 const Divider = (props) => {
     return (
-        <div className={`${syles.divider} ${props.text ? syles.withText : ''}`}>
+        <div className={`${styles.divider} ${props.text ? styles.withText : ''}`}>
             <span className="has-text-centered">{props.text}</span>
         </div>
     );

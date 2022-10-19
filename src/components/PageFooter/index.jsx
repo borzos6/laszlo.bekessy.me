@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { Content, Hero, Footer, Container, Image } from 'react-bulma-components';
-import { watercolor4Sketch } from '../../images';
+import { watercolorSplash4 } from '../../images';
 import * as styles from './styles.module.scss';
 
 const PageFooter = () => {
     return (
         <Hero size="small" className={styles.footer}>
-            <Image src={watercolor4Sketch} className={styles.background} alt="Footer watercolor image" />
+            <Image src={watercolorSplash4} className={styles.background} alt="Footer watercolor image" />
             <Hero.Footer>
                 <Footer>
                     <Container>

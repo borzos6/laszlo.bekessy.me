@@ -44,7 +44,6 @@ module.exports = {
         `gatsby-transformer-json`,
 
         // GENERAL
-        `gatsby-plugin-offline`,
         `gatsby-plugin-robots-txt`,
         {
             resolve: `gatsby-plugin-sitemap`,
@@ -69,6 +68,31 @@ module.exports = {
                         url: path,
                         lastmod: modifiedGmt,
                     };
+                },
+            },
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `László Békéssy | Intro, contact, portfolio`,
+                short_name: `laszlo.bekessy.me`,
+                description: `Intro, contact, and portfolio page for László Békéssy @borzos6`,
+                start_url: `/`,
+                background_color: `#fff`,
+                theme_color: `#34AAE1`,
+                display: `standalone`,
+                icon: `src/images/profile/profile-rounded-800.webp`,
+                icon_options: {
+                    purpose: `any maskable`,
+                },
+                cache_busting_mode: `none`,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-offline`,
+            options: {
+                workboxConfig: {
+                    globPatterns: [`**/icon-path*`],
                 },
             },
         },

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
 import { Splash, ProjectCards } from '../../components';
-import { watercolor1Sketch } from '../../images';
+import { watercolorSplash1 } from '../../images';
 import {} from '..';
 
 const Lead = () => {
@@ -20,7 +20,7 @@ const Lead = () => {
                         size: 4,
                         offset: 1,
                     }}>
-                    <Splash sentence="I lead teams" imageSrc={watercolor1Sketch} isLeft={true} />
+                    <Splash sentence="I lead teams" imageSrc={watercolorSplash1} isLeft={true} size="3by2" />
                 </Columns.Column>
                 <Columns.Column
                     tablet={{
@@ -29,10 +29,10 @@ const Lead = () => {
                     desktop={{
                         size: 6,
                     }}>
-                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
+                    <h1 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
                         <span className="has-text-danger">{`${new Date().getFullYear() - 2008}`} years</span> in
                         leadership
-                    </h3>
+                    </h1>
                     <Content>
                         <ul>
                             <li>

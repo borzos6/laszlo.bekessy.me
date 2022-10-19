@@ -1,7 +1,7 @@
 .containerLeft {
   position: relative;
 
-  &:hover > .sketch {
+  &:hover > .splash {
     transform: translateX(3%);
   }
 
@@ -13,7 +13,7 @@
 .containerRight {
   position: relative;
 
-  &:hover > .sketch {
+  &:hover > .splash {
     transform: translateX(-3%);
   }
 
@@ -34,7 +34,7 @@
   line-height: 1;
 }
 
-.sketch {
+.splash {
     z-index: -2;
     transition: all 2s ease;
     opacity: .7;

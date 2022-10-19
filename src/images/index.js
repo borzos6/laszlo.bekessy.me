@@ -2,13 +2,11 @@
 export { default as standingProfilePicture } from './profile/profile-standing-800.webp';
 export { default as roundedProfilePicture } from './profile/profile-rounded-800.webp';
 
-// Sketches
-export { default as globe1Sketch } from './sketches/globe-1.webp';
-export { default as globe2Sketch } from './sketches/globe-2.webp';
-export { default as watercolor1Sketch } from './sketches/watercolor-1.webp';
-export { default as watercolor2Sketch } from './sketches/watercolor-2.webp';
-export { default as watercolor3Sketch } from './sketches/watercolor-3.webp';
-export { default as watercolor4Sketch } from './sketches/watercolor-4.webp';
+// Splashes
+export { default as watercolorSplash1 } from './splash/watercolor-1.webp';
+export { default as watercolorSplash2 } from './splash/watercolor-2.webp';
+export { default as watercolorSplash3 } from './splash/watercolor-3.webp';
+export { default as watercolorSplash4 } from './splash/watercolor-4.webp';
 
 // Projects
 export { default as projectCodeBerry } from './projects/codeberry.svg';

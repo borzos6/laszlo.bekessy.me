@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Columns, Content } from 'react-bulma-components';
 import { Splash, Testimonials } from '../../components';
-import { watercolor3Sketch } from '../../images';
+import { watercolorSplash3 } from '../../images';
 
 const Talent = () => {
     return (
@@ -19,7 +19,7 @@ const Talent = () => {
                         size: 4,
                         offset: 1,
                     }}>
-                    <Splash sentence="I help the talented" imageSrc={watercolor3Sketch} isLeft={true} />
+                    <Splash sentence="I help the talented" imageSrc={watercolorSplash3} size="1by1" isLeft={true} />
                 </Columns.Column>
                 <Columns.Column
                     tablet={{
@@ -28,9 +28,9 @@ const Talent = () => {
                     desktop={{
                         size: 6,
                     }}>
-                    <h3 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
+                    <h1 className="is-size-3-desktop is-size-4-tablet mb-0 pl-5 pt-4 title is-title-reveal">
                         <span className="has-text-success">500+ hours </span>spent in teaching and coaching
-                    </h3>
+                    </h1>
                     <Content>
                         <ul>
                             <li>

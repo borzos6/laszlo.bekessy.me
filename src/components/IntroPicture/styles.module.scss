@@ -1,39 +1,20 @@
-.picture {
+.profile {
+    transform: translateX(-25%);
+    z-index: 0;
+    transition: all 1s ease;
     clip-path: ellipse(68% 50% at 50% 50%);
 }
 
-.profile {
-    transform: translateX(-55%);
-    z-index: 0;
-    width: 22vw;
-    transition: all 1s ease;
-}
-
-.sketch {
-    position: absolute;
-    transform: translateX(5%) rotate(180deg);
-    top: 1vmin;
-    width: 35vw;
-    z-index: -2;
-    transition: all 2s ease;
-    opacity: .5;
-}
-
-.container {   
-    &:hover > .sketch {
-        transform: translateX(0%) rotate(170deg);
-    }
+.container {  
+    max-width: 30vw; 
+    min-width: 120px; 
 
     &:hover > .profile { 
-        transform: translateX(-50%);
+        transform: translateX(-30%);
     }
 }
 
 @media screen and (max-width: 600px) {
-    .sketch {
-        top: 2.5vw;
-    }
-
     .profile {
         bottom: 2vh;
     }

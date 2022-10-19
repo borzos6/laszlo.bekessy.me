@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const onRenderBody = ({ setHeadComponents }) => {
+export const onRenderBody = ({ setHeadComponents, setHtmlAttributes }) => {
     setHeadComponents([
         <link
             rel="preload"
@@ -19,4 +19,5 @@ export const onRenderBody = ({ setHeadComponents }) => {
             key="nexaLight"
         />,
     ]);
+    setHtmlAttributes({ lang: 'en' });
 };
