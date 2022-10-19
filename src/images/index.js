@@ -17,7 +17,5 @@ export { default as projectInvisibleUniversity } from './projects/invisible-univ
 export { default as projectABF } from './projects/abf.svg';
 
 // Testimonials
-export { default as avatarNora } from './avatars/nora.jpg';
-export { default as avatarEszter } from './avatars/eszter.jpg';
-export { default as avatarSzilvia } from './avatars/szilvia.jpg';
-export { default as avatarLaszlo } from './avatars/laszlo.jpg';
+export { default as avatarNora } from './avatars/nora.webp';
+export { default as avatarSzilvia } from './avatars/szilvia.webp';

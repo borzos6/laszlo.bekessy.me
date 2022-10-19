@@ -7,7 +7,7 @@ const TestimonialCard = (props) => {
     return (
         <Card className={styles.wrapper}>
             <Card.Header>
-                <p className={`card-header-title has-text-warning has-text-centered ${styles.centered}`}>
+                <p className={`card-header-title has-text-success has-text-centered ${styles.header}`}>
                     {props.oneliner}
                 </p>
             </Card.Header>
@@ -15,7 +15,13 @@ const TestimonialCard = (props) => {
                 <Content size="small">{props.children}</Content>
                 <Media className={styles.footer}>
                     <Media.Item renderAs="figure" align="left">
-                        <Image size={128} alt="avatar 64x64" src={props.thumbnail} rounded={true} />
+                        <Image
+                            size={128}
+                            alt="avatar 64x64"
+                            src={props.thumbnail}
+                            className={styles.avatar}
+                            rounded={true}
+                        />
                     </Media.Item>
                     <Media.Item>
                         <Heading size={5}>{props.name}</Heading>

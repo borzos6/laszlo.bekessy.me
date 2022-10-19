@@ -53,7 +53,9 @@ const Talent = () => {
                         </ul>
                     </Content>
                 </Columns.Column>
-                <Testimonials />
+                <Columns.Column className="px-1">
+                    <Testimonials />
+                </Columns.Column>
             </Columns>
         </Container>
     );
