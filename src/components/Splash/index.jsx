@@ -12,7 +12,9 @@ const Splash = (props) => {
                 size={props.size}
                 alt="Watercolor splash"
             />
-            <h1 className={`${styles.sentence}`}>{props.sentence}</h1>
+            <h1 className={`${styles.sentence} is-size-4-mobile is-size-3-tablet has-text-weight-bold`}>
+                {props.sentence}
+            </h1>
         </div>
     );
 };
