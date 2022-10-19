@@ -50,7 +50,7 @@ const Tech = () => {
                     <Splash sentence="I'm a tech generalist" imageSrc={watercolor2Sketch} isLeft={false} />
                 </Columns.Column>
                 <Columns.Column
-                    tablet={{
+                    mobile={{
                         size: 12,
                     }}
                     desktop={{
