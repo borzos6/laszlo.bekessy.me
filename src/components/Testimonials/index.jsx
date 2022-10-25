@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Columns } from 'react-bulma-components';
 import { TestimonialCard } from '..';
-import { avatarNora, avatarSzilvia } from '../../images';
+import { avatarNora, avatarSzilvia, avatarEszter } from '../../images';
 
 const Testimonials = () => {
     return (
@@ -10,20 +10,19 @@ const Testimonials = () => {
                 <Columns>
                     <Columns.Column tablet={{ size: 6 }}>
                         <TestimonialCard
-                            name="Nóra"
-                            date="2022-03"
-                            thumbnail={avatarNora}
-                            oneliner="Invaluable experience with very good intentions">
+                            name="Eszter"
+                            date="2022-09"
+                            thumbnail={avatarEszter}
+                            oneliner="I always look back on our sessions with gratitude">
                             <p>
-                                Working with László was an amazing experience—he was always professional and willing to
-                                help. He tried to pass on his knowledge and experience of the startup world to us and
-                                helped us identify areas where we needed to improve our thinking. He always treated the
-                                team with utmost respect and he showed a lot of patience where we needed time to
-                                organize our thoughts.
+                                I could not have wished for a better leadership coach than László. I always felt safe
+                                during our sessions and knew I could open up to him. He not only listened to me
+                                patiently without judgment, but he facilitated the work with spot-on questions.
                                 <br />
                                 <br />
-                                We would definitely choose him as our mentor again—he's an invaluable resource with very
-                                good intentions.
+                                We peeled down the symptoms from the real source of the problem in no time. Together we
+                                always explored a range of inspiring possible solutions using various challenging
+                                "homeworks". He helped me to become a better leader and I am grateful for that.
                             </p>
                         </TestimonialCard>
                     </Columns.Column>
@@ -42,6 +41,25 @@ const Testimonials = () => {
                                 and he pushed me to be that leader instead of trying to fit me into a mould. This
                                 experience helped me to understand my own strengths and weaknesses as a leader, and it
                                 also showed me the importance of being true to myself.
+                            </p>
+                        </TestimonialCard>
+                    </Columns.Column>
+                    <Columns.Column tablet={{ size: 6 }}>
+                        <TestimonialCard
+                            name="Nóra"
+                            date="2022-03"
+                            thumbnail={avatarNora}
+                            oneliner="Invaluable experience with very good intentions">
+                            <p>
+                                Working with László was an amazing experience—he was always professional and willing to
+                                help. He tried to pass on his knowledge and experience of the startup world to us and
+                                helped us identify areas where we needed to improve our thinking. He always treated the
+                                team with utmost respect and he showed a lot of patience where we needed time to
+                                organize our thoughts.
+                                <br />
+                                <br />
+                                We would definitely choose him as our mentor again—he's an invaluable resource with very
+                                good intentions.
                             </p>
                         </TestimonialCard>
                     </Columns.Column>

@@ -17,3 +17,4 @@ export { default as projectABF } from './projects/abf.svg';
 // Testimonials
 export { default as avatarNora } from './avatars/nora.webp';
 export { default as avatarSzilvia } from './avatars/szilvia.webp';
+export { default as avatarEszter } from './avatars/eszter.webp';
