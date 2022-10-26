@@ -18,3 +18,4 @@ export { default as projectABF } from './projects/abf.svg';
 export { default as avatarNora } from './avatars/nora.webp';
 export { default as avatarSzilvia } from './avatars/szilvia.webp';
 export { default as avatarEszter } from './avatars/eszter.webp';
+export { default as avatarLaszlo } from './avatars/laszlo.webp';

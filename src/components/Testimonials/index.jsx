@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Columns } from 'react-bulma-components';
 import { TestimonialCard } from '..';
-import { avatarNora, avatarSzilvia, avatarEszter } from '../../images';
+import { avatarNora, avatarSzilvia, avatarEszter, avatarLaszlo } from '../../images';
 
 const Testimonials = () => {
     return (
@@ -60,6 +60,24 @@ const Testimonials = () => {
                                 <br />
                                 We would definitely choose him as our mentor again—he's an invaluable resource with very
                                 good intentions.
+                            </p>
+                        </TestimonialCard>
+                    </Columns.Column>
+                    <Columns.Column tablet={{ size: 6 }}>
+                        <TestimonialCard
+                            name="László"
+                            date="2022-06"
+                            thumbnail={avatarLaszlo}
+                            oneliner="Our sessions helped me become a better strategist">
+                            <p>
+                                Laszlo is one of the best leadership coaches I have ever worked with. His approach was
+                                rooted in deep and active listening that helped him recognize patterns I couldn't see
+                                from my own vantage point. Reflecting those patterns back to me unlocked a new
+                                understanding of myself and new ways to approach my problems.
+                                <br />
+                                <br />
+                                Our sessions together helped me become a better leader for my product team and a better
+                                strategist for our company, in a safe, non-judgmental, and effective environment.
                             </p>
                         </TestimonialCard>
                     </Columns.Column>
