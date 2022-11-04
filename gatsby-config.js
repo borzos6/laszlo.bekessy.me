@@ -17,6 +17,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 trackingId: `UA-141698457-2`,
+                head: true,
             },
         },
         {
@@ -24,10 +25,16 @@ module.exports = {
             options: {
                 name: `László Békéssy | Intro, contact, portfolio`,
                 short_name: `laszlo.bekessy.me`,
+                description: `Intro, contact, and portfolio page for László Békéssy @borzos6`,
+                start_url: `/`,
                 background_color: `#fff`,
-                theme_color: `#0057AE`,
-                display: `minimal-ui`,
-                icon: `src/images/favicon/favicon-32x32.png`,
+                theme_color: `#34AAE1`,
+                display: `standalone`,
+                icon: `src/images/profile/profile-rounded-800.webp`,
+                icon_options: {
+                    purpose: `any maskable`,
+                },
+                cache_busting_mode: `none`,
             },
         },
 
@@ -71,23 +78,7 @@ module.exports = {
                 },
             },
         },
-        {
-            resolve: `gatsby-plugin-manifest`,
-            options: {
-                name: `László Békéssy | Intro, contact, portfolio`,
-                short_name: `laszlo.bekessy.me`,
-                description: `Intro, contact, and portfolio page for László Békéssy @borzos6`,
-                start_url: `/`,
-                background_color: `#fff`,
-                theme_color: `#34AAE1`,
-                display: `standalone`,
-                icon: `src/images/profile/profile-rounded-800.webp`,
-                icon_options: {
-                    purpose: `any maskable`,
-                },
-                cache_busting_mode: `none`,
-            },
-        },
+
         {
             resolve: `gatsby-plugin-offline`,
             options: {
