@@ -1,17 +1,78 @@
 {
     "strongestActualTechStack": [
-        { "devicon": "terraform", "name": "TF"},
-        { "devicon": "kubernetes", "name": "Kube"},
-        { "devicon": "amazonwebservices", "name": "AWS"},
-        { "devicon": "docker", "name": "Docker"},
-        { "devicon": "mongodb", "name": "Mongo"},
-        { "devicon": "nodejs", "name": "Node.js"},
-        { "devicon": "typescript", "name": "TS"},        
-        { "devicon": "gatsby", "name": "Gatsby"},
-        { "devicon": "react", "name": "React"},   
-        { "devicon": "bulma", "name": "Bulma"},
-        { "devicon": "git", "name": "Git"},
-        { "devicon": "vscode", "name": "VSCode"}
-        
+        { "devicon": "terraform", "name": "TF" },
+        { "devicon": "kubernetes", "name": "Kube" },
+        { "devicon": "amazonwebservices", "name": "AWS" },
+        { "devicon": "docker", "name": "Docker" },
+        { "devicon": "mongodb", "name": "Mongo" },
+        { "devicon": "nodejs", "name": "Node.js" },
+        { "devicon": "typescript", "name": "TS" },
+        { "devicon": "gatsby", "name": "Gatsby" },
+        { "devicon": "react", "name": "React" },
+        { "devicon": "bulma", "name": "Bulma" },
+        { "devicon": "git", "name": "Git" },
+        { "devicon": "vscode", "name": "VSCode" }
+    ],
+    "codeberryTechStack": [
+        { "devicon": "terraform", "name": "TF" },
+        { "devicon": "kubernetes", "name": "Kube" },
+        { "devicon": "amazonwebservices", "name": "AWS" },
+        { "devicon": "docker", "name": "Docker" },
+        { "devicon": "mongodb", "name": "Mongo" },
+        { "devicon": "nodejs", "name": "Node.js" },
+        { "devicon": "typescript", "name": "TS" },
+        { "devicon": "nestjs", "name": "Nest.js" },
+        { "devicon": "gatsby", "name": "Gatsby" },
+        { "devicon": "react", "name": "React" },
+        { "devicon": "bootstrap", "name": "Bootstrap" },
+        { "devicon": "git", "name": "Git" },
+        { "devicon": "vscode", "name": "VSCode" }
+    ],
+    "yearCompassTechStack": [
+        { "devicon": "terraform", "name": "TF" },
+        { "devicon": "amazonwebservices", "name": "AWS" },
+        { "devicon": "javascript", "name": "JS" },
+        { "devicon": "gatsby", "name": "Gatsby" },
+        { "devicon": "react", "name": "React" },
+        { "devicon": "bootstrap", "name": "Bootstrap" },
+        { "devicon": "facebook", "name": "Facebook" },
+        { "devicon": "git", "name": "Git" },
+        { "devicon": "vscode", "name": "VSCode" },
+        { "devicon": "illustrator", "name": "Illustrator" }
+    ],
+    "freelancingTechStack": [
+        { "devicon": "javascript", "name": "JS" },
+        { "devicon": "nodejs", "name": "Node.js" },
+        { "devicon": "vuejs", "name": "Vue" },
+        { "devicon": "bulma", "name": "Bulma" },
+        { "devicon": "css3", "name": "CSS" },
+        { "devicon": "git", "name": "Git" },
+        { "devicon": "vscode", "name": "VSCode" }
+    ],
+    "abfTechStack": [
+        { "devicon": "linux", "name": "Linux" },
+        { "devicon": "vagrant", "name": "Vagrant" },
+        { "devicon": "bash", "name": "Bash" },
+        { "devicon": "mysql", "name": "Mysql" },
+        { "devicon": "php", "name": "PHP" },
+        { "devicon": "laravel", "name": "Laravel" },
+        { "devicon": "python", "name": "Python" },
+        { "devicon": "django", "name": "Django" },
+        { "devicon": "bootstrap", "name": "Bootstrap" },
+        { "devicon": "jquery", "name": "Jquery" },
+        { "devicon": "jira", "name": "Jira" },
+        { "devicon": "git", "name": "Git" },
+        { "devicon": "jetbrains", "name": "Jetbrains" }
+    ],
+    "automotiveTechStack": [
+        { "devicon": "bash", "name": "Bash" },
+        { "devicon": "c", "name": "C" },
+        { "devicon": "embeddedc", "name": "Emb. C" },
+        { "devicon": "cplusplus", "name": "C++" },
+        { "devicon": "python", "name": "Python" },
+        { "devicon": "java", "name": "Java" },
+        { "devicon": "matlab", "name": "Matlab" },
+        { "devicon": "labview", "name": "Labview" },
+        { "devicon": "subversion", "name": "SVN" }
     ]
 }
