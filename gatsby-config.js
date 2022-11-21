@@ -14,10 +14,20 @@ module.exports = {
 
         // SEO & TRACKING PLUGINS
         {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: `gatsby-plugin-google-gtag`,
             options: {
-                trackingId: `UA-141698457-2`,
-                head: true,
+                trackingIds: [
+                    'G-03H132W4XD', // GA4
+                ],
+                gtagConfig: {
+                    optimize_id: 'OPT_CONTAINER_ID',
+                    anonymize_ip: true,
+                    cookie_expires: 0,
+                },
+                pluginConfig: {
+                    head: true,
+                    respectDNT: true,
+                },
             },
         },
         {
